@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styly.css">
+</head>
+
+<body>
+    <main>
+        <h1>Hra</h1>
+        <p class="lead">Pravidla:principem hry je hodit více než soupeř. Pokud však padne jednička, hráč ztrácí body a
+            hraje soupeř. Jedná se o obdobu karetní hry "21/oko bere"</p>
+        <div class="score shadowed" id="score1">Skóre 1. hráče<p class="vysledek" id="hrac1">0</p>
+        </div>
+        <div class="score shadowed" id="score2">Skóre 2.hráče<p class="vysledek" id="hrac2">0</p>
+        </div>
+
+        <div class="stav shadowed" id="stav1">
+            Současné skóre
+            <p class="actual" id="hracA1">0</p>
+
+        </div>
+        <div class="stav shadowed" id="stav2">Současné skóre<p class="actual" id="hracA2">0</p>
+        </div>
+        <div class="turn shadowed" id="turn">0</div>
+
+        <div class="box">
+            <div class="cube ovladani shadowed"></div>
+            <div class="ovladani shadowed" id="hod">Hodit kostkou</div>
+
+            <div id="podrzet" class="ovladani shadowed">Podržet skóre</div>
+            <div class="ovladani shadowed" id="new">Nová hra</div>
+        </div>
+    </main>
+
+</body>
+
+<script src="prvni.js"></script>
+
+</html>
